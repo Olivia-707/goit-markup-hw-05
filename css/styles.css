@@ -696,7 +696,7 @@ button:focus .close-icon-fill {
   cursor: pointer;
 }
 
-.checkbox-accept:checked+.checkbox-input-text>span {
+.checkbox-accept:checked~.checkbox-input-text>.new-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
